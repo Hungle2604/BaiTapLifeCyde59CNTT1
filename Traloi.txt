@@ -1,0 +1,6 @@
+Câu 4: khi ứng dụng đang chạy và người sử dụng bấm nút back sau đó mở lại ứng dụng thì phương thức vòng đời :
+onPause -> onStop -> onDestroy -> onCreate -> onStart -> onResume
+Câu 5: khi ứng dụng đang chạy và người sử dụng bấm nút hôm và sau đó mở lại ứng dụng thì phương thức vòng đời là:là
+onPause -> onStop -> onRestart -> onResume
+Câu 6: nếu cần lưu thông tin của ứng dụng để khôi phục trạng thái hiển thị thì cần phải thực hiẹn trong phương thức vòng đời:
+onPause -> onStop -> onDestroy -> onCreate -> onStart -> onResume
